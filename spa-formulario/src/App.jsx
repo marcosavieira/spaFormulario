@@ -37,9 +37,7 @@ function App() {
                                 <div className="section-header">
                                     <p>
                                         Join 60,000+ product managers receiving
-                                        monthly
-                                        <br />
-                                        updates on:
+                                        monthly updates on:
                                     </p>
                                 </div>
                                 <div className="steps">
