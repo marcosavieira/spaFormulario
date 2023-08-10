@@ -1,5 +1,5 @@
 import imgSuccess from "../../assets/images/icon-success.svg";
-import "./style.css";
+import "./module.style.css";
 
 export const SubSuccess = ({ email, setSubscribing, setUserEmail }) => {
     const handleDimiss = () => {
@@ -9,7 +9,7 @@ export const SubSuccess = ({ email, setSubscribing, setUserEmail }) => {
     return (
         <>
             <div className="card-subscribing">
-                <section>
+                <section className="section-card">
                     <div className="container-img-success">
                         <img src={imgSuccess} alt="" />
                     </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./module.style.css";
 import success from "./assets/images/icon-list.svg";
 import { SubSuccess } from "./components/SubSuccess";
 

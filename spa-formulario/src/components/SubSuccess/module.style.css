@@ -9,7 +9,7 @@
     min-width: 25rem;
 }
 
-section {
+.section-card {
     width: 70%;
     height: 90%;
     margin: 2rem;
