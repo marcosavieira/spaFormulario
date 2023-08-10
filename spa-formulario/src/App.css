@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 80%;
+    background: hsl(0, 0%, 100%);
+    border-radius: 40px 40px 40px 40px;
+    min-width: 63rem;
+    min-height: 41rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-left {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+}
+
+.describle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 15%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.describle h1,
+p {
+    color: hsl(234, 29%, 20%);
+}
+
+.describle h1 {
+    font-size: 4.4rem;
+}
+
+.describle p {
+    font-size: 1.1rem;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.steps-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.steps-content img {
+    width: 1.2rem;
+}
+
+.steps-content p {
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 40%;
+    gap: 3%;
+}
+
+form label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+
+form .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.error-msg {
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: hsl(4, 100%, 67%);
+}
+
+.error {
+    color: hsl(4, 100%, 67%);
+    border: 1px outset hsl(4, 100%, 67%);
+}
+
+form input {
+    width: 100%;
+    height: 30%;
+    border: 1px outset hsl(231, 7%, 60%);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    height: 30%;
+    border: none;
+    background: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.nav-rigth {
+    width: 40%;
+    height: 90%;
+}
+
+.nav-rigth-img {
+    background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    max-width: 38.8rem;
+    max-height: 58.8rem;
+}
+
+@media (max-width: 1000px) {
+    .card {
+        flex-direction: column;
+    }
+}
