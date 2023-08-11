@@ -1,0 +1,87 @@
+.card-subscribing {
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    width: 30%;
+    height: 50%;
+    border-radius: 30px;
+    align-items: center;
+    min-width: 25rem;
+}
+
+.section-card {
+    width: 70%;
+    height: 90%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+}
+
+.container-img-success img {
+    width: 3rem;
+}
+
+.container-header-success h1 {
+    color: hsl(234, 29%, 20%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container-msg {
+    display: flex;
+    width: 90%;
+}
+
+.container-msg p {
+    color: hsl(234, 29%, 20%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.container-button {
+    width: 100%;
+    height: 15%;
+}
+
+.container-button button {
+    width: 90%;
+    height: 80%;
+    background: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .card-subscribing {
+        width: 100%;
+        height: 100%;
+        border-radius: unset;
+    }
+    .section-card {
+        height: 95%;
+        width: 85%;
+        justify-content: flex-start;
+        margin-top: 8rem;
+        gap: 2rem;
+        align-content: center;
+    }
+
+    .container-img-success img {
+        width: 4rem;
+    }
+
+    .container-msg p {
+        font-size: 1rem;
+    }
+
+    .container-button {
+        height: 10%;
+        margin-top: 14rem;
+    }
+}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./module.style.css";
 import success from "./assets/images/icon-list.svg";
 import { SubSuccess } from "./components/SubSuccess";
 
@@ -37,9 +37,7 @@ function App() {
                                 <div className="section-header">
                                     <p>
                                         Join 60,000+ product managers receiving
-                                        monthly
-                                        <br />
-                                        updates on:
+                                        monthly updates on:
                                     </p>
                                 </div>
                                 <div className="steps">
